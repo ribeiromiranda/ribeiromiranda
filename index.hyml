@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ribeiro Miranda | Engenheiro de Software Sênior</title>
+    <meta name="description" content="Portfólio de Ribeiro Miranda - Engenheiro de Software Sênior especializado em Backend, Cloud, Dados e Inteligência Artificial.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { primary: '#38bdf8', dark: '#0f172a', darker: '#020617', card: '#1e293b' }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-dark text-slate-300 font-sans antialiased selection:bg-primary selection:text-white">
+
+    <nav class="fixed w-full z-50 bg-dark/80 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+            <span class="font-bold text-xl tracking-wider text-white">Ribeiro<span class="text-primary">Miranda</span></span>
+            <div class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#projetos" class="hover:text-primary transition">Destaque</a>
+                <a href="#experiencia" class="hover:text-primary transition">Experiência</a>
+                <a href="#stack" class="hover:text-primary transition">Stack</a>
+            </div>
+            <div class="flex space-x-5">
+                <a href="https://www.linkedin.com/in/ribeiromiranda/" target="_blank" class="text-slate-400 hover:text-primary transition text-xl"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/ribeiromiranda" target="_blank" class="text-slate-400 hover:text-primary transition text-xl"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="pt-40 pb-20 px-6 max-w-5xl mx-auto flex flex-col justify-center min-h-[80vh]">
+        <p class="text-primary font-mono text-sm tracking-widest uppercase mb-4">Olá, meu nome é</p>
+        <h1 class="text-5xl md:text-7xl font-bold text-white mb-4 tracking-tight">Ribeiro Miranda.</h1>
+        <h2 class="text-3xl md:text-5xl font-bold text-slate-500 mb-8 tracking-tight">Construo o motor das aplicações.</h2>
+        <p class="text-lg text-slate-400 max-w-2xl leading-relaxed mb-10">
+            Sou um Engenheiro de Software Sênior especializado na arquitetura de sistemas distribuídos, pipelines de dados escaláveis e integração de Inteligência Artificial. Mais de 10 anos transformando problemas complexos em código resiliente.
+        </p>
+        <div>
+            <a href="mailto:seu-email@exemplo.com" class="inline-flex items-center justify-center px-6 py-3 border border-primary text-primary hover:bg-primary hover:text-dark transition font-bold rounded">
+                Entrar em contato
+            </a>
+        </div>
+    </section>
+
+    <section id="projetos" class="py-20 px-6 bg-darker border-y border-slate-800">
+        <div class="max-w-5xl mx-auto">
+            <h3 class="text-2xl font-bold mb-10 flex items-center text-white"><span class="text-primary font-mono text-lg mr-3">01.</span> Em Destaque</h3>
+            
+            <div class="bg-card p-8 md:p-10 rounded-xl border border-slate-700 hover:border-primary/50 transition relative overflow-hidden group">
+                <div class="flex flex-col md:flex-row justify-between items-start mb-6">
+                    <div>
+                        <h4 class="text-3xl font-bold text-white mb-2">Heddle Lang</h4>
+                        <p class="text-primary text-sm font-mono font-bold uppercase tracking-wider">DSL Open-Source para Orquestração de Dados</p>
+                    </div>
+                    <div class="flex space-x-4 text-2xl mt-4 md:mt-0">
+                        <a href="https://github.com/galgotech/heddle-lang" target="_blank" class="text-slate-400 hover:text-white transition"><i class="fab fa-github"></i></a>
+                        <a href="https://heddle.fhub.dev/" target="_blank" class="text-slate-400 hover:text-white transition"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <p class="text-slate-300 leading-relaxed mb-8 text-lg">
+                    Arquitetei o motor de execução de uma linguagem construída do zero para simplificar pipelines de dados e microsserviços. Implementação da <strong>Arquitetura Host-Core</strong>, unindo contratos tipados estritos com a flexibilidade do ecossistema Python. O motor utiliza <strong>Apache Arrow</strong> para memória <em>zero-copy</em> e o framework <strong>Ray</strong> para processamento distribuído massivo.
+                </p>
+                <div class="flex flex-wrap gap-3 font-mono text-xs text-slate-300">
+                    <span class="bg-dark px-3 py-1 rounded border border-slate-700">Python</span>
+                    <span class="bg-dark px-3 py-1 rounded border border-slate-700">Apache Arrow</span>
+                    <span class="bg-dark px-3 py-1 rounded border border-slate-700">Ray Framework</span>
+                    <span class="bg-dark px-3 py-1 rounded border border-slate-700">DataFusion / PRQL</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experiencia" class="py-20 px-6">
+        <div class="max-w-5xl mx-auto">
+            <h3 class="text-2xl font-bold mb-12 flex items-center text-white"><span class="text-primary font-mono text-lg mr-3">02.</span> Trajetória Profissional</h3>
+            
+            <div class="space-y-16">
+                <div class="flex flex-col md:flex-row gap-4 md:gap-8">
+                    <div class="md:w-1/4">
+                        <span class="text-slate-500 font-mono text-sm">Jul 2023 — Presente</span>
+                    </div>
+                    <div class="md:w-3/4">
+                        <h4 class="text-xl font-bold text-white mb-1">Engenheiro de Software Sênior <span class="text-primary">@ BR Captura</span></h4>
+                        <ul class="mt-4 space-y-3 text-slate-400 text-sm leading-relaxed list-none">
+                            <li class="flex"><span class="text-primary mr-2">▹</span> Arquitetura de microsserviços de alta volumetria utilizando TypeScript, Node.js, PostgreSQL e ClickHouse.</li>
+                            <li class="flex"><span class="text-primary mr-2">▹</span> Construção de pipelines assíncronos em tempo real integrados com mensageria Apache Kafka.</li>
+                            <li class="flex"><span class="text-primary mr-2">▹</span> Ecossistema avançado de RPA e Web Crawling massivo com Python (Scrapy) e Selenium.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row gap-4 md:gap-8">
+                    <div class="md:w-1/4">
+                        <span class="text-slate-500 font-mono text-sm">Jan 2020 — Jun 2023</span>
+                    </div>
+                    <div class="md:w-3/4">
+                        <h4 class="text-xl font-bold text-white mb-1">Founder & Consultor B2B <span class="text-primary">@ Galgo Tech</span></h4>
+                        <p class="mt-1 text-sm text-slate-500 italic mb-4">Liderança técnica e arquitetura B2B para clientes via plataformas de curadoria (Materialize.pro e Vibbra):</p>
+                        <ul class="space-y-3 text-slate-400 text-sm leading-relaxed list-none">
+                            <li class="flex"><span class="text-primary mr-2">▹</span> <strong>Legathum:</strong> Pipelines de MLOps (Metaflow), fine-tuning de IA (PyTorch) e plugins em C++ para Unreal Engine 5. Infra em K8s.</li>
+                            <li class="flex"><span class="text-primary mr-2">▹</span> <strong>Unifinance:</strong> Microsserviços em Go (Golang) e Python para CRM Financeiro. Crawlers para integração de legado.</li>
+                            <li class="flex"><span class="text-primary mr-2">▹</span> <strong>O2B / Buzzao:</strong> Backend IaaS assíncrono escrito em Go suportado por NATS.io e Kafka.</li>
+                            <li class="flex"><span class="text-primary mr-2">▹</span> <strong>Elastri:</strong> App corporativo em Flutter com Firebase, adotado por +5.000 usuários na pandemia.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row gap-4 md:gap-8">
+                    <div class="md:w-1/4">
+                        <span class="text-slate-500 font-mono text-sm">Jan 2018 — Dez 2020</span>
+                    </div>
+                    <div class="md:w-3/4">
+                        <h4 class="text-xl font-bold text-white mb-1">Pesquisador Machine Learning <span class="text-primary">@ UFG (Mestrado)</span></h4>
+                        <ul class="mt-4 space-y-3 text-slate-400 text-sm leading-relaxed list-none">
+                            <li class="flex"><span class="text-primary mr-2">▹</span> Pesquisa aplicada de Inteligência Artificial para a indústria (foco em manutenção preditiva).</li>
+                            <li class="flex"><span class="text-primary mr-2">▹</span> Desenvolvimento de Redes Neurais Recorrentes (RNN) usando PyTorch, TensorFlow e Apache Flink.</li>
+                            <li class="flex"><span class="text-primary mr-2">▹</span> Publicações científicas de alto impacto na IEEE Sensors e BRACIS.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="stack" class="py-20 px-6 bg-darker border-t border-slate-800">
+        <div class="max-w-5xl mx-auto text-center">
+            <h3 class="text-2xl font-bold mb-10 text-white"><span class="text-primary font-mono text-lg mr-2">03.</span> Tech Stack</h3>
+            <div class="flex flex-wrap justify-center gap-3 max-w-3xl mx-auto">
+                <span class="px-4 py-2 bg-card rounded text-sm text-primary font-mono border border-slate-700 shadow">Go (Golang)</span>
+                <span class="px-4 py-2 bg-card rounded text-sm text-primary font-mono border border-slate-700 shadow">Python</span>
+                <span class="px-4 py-2 bg-card rounded text-sm text-primary font-mono border border-slate-700 shadow">Node.js & TypeScript</span>
+                <span class="px-4 py-2 bg-card rounded text-sm text-slate-300 border border-slate-700">Apache Kafka</span>
+                <span class="px-4 py-2 bg-card rounded text-sm text-slate-300 border border-slate-700">Kubernetes & Docker</span>
+                <span class="px-4 py-2 bg-card rounded text-sm text-slate-300 border border-slate-700">AWS / Azure</span>
+                <span class="px-4 py-2 bg-card rounded text-sm text-slate-300 border border-slate-700">PostgreSQL / ClickHouse</span>
+                <span class="px-4 py-2 bg-card rounded text-sm text-slate-300 border border-slate-700">Machine Learning (PyTorch)</span>
+                <span class="px-4 py-2 bg-card rounded text-sm text-slate-300 border border-slate-700">Web Crawling (Scrapy)</span>
+                <span class="px-4 py-2 bg-card rounded text-sm text-slate-300 border border-slate-700">Grafana</span>
+                <span class="px-4 py-2 bg-card rounded text-sm text-slate-300 border border-slate-700">C/C++</span>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-8 text-center text-slate-500 font-mono text-sm border-t border-slate-800 bg-dark">
+        <p>Projetado e desenvolvido por Ribeiro Miranda &copy; 2026</p>
+    </footer>
+
+</body>
+</html>
